@@ -34,7 +34,7 @@ class ChatBotSam(App):
                       text= "GREET",
                       size_hint= (1,0.5),
                       bold= True,
-                      background_color ='#00FFCE'
+                      background_color ='#1f7061'
                       )
         self.button.bind(on_press=self.callback)
         self.window.add_widget(self.button)
